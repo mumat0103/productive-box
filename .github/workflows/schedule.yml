@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Update gist
-        uses: mumat0103
+        uses: mumat0103/productive-box@master
         env:
           GH_TOKEN: 2613663d7e34b9a9649f10f946c6e141
           GIST_ID: ${{ secrets.GIST_ID }}
